@@ -1,0 +1,77 @@
+body{
+background-color: rgb(216, 232, 232);
+}
+*{
+    font-family: sans-serif;
+}
+
+.form{
+    background-color: aliceblue;
+    border: 2px solid black;
+    /* margin: 100px; */
+    margin-left: 200px;
+
+  margin-top: 25px;
+    margin-right: 200px;
+    margin-bottom: 25px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+   
+    /* display: inline; */
+
+}
+.submit{
+    background-color: rgb(90, 156, 95);
+    /* bottom: center; */
+    /* align-items: center; */
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+input[type=text]:focus {
+    width: 250px;
+    
+  }
+  input[type=password]:focus {
+    width: 250px;
+  }
+  input[type=email]:focus {
+    width: 250px;
+  }
+  .for{
+    width: 50px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+
+  
+  }
+  .name{
+
+
+    /* border: solid 2px red; */
+    
+ 
+  }
+ 
+
+  .name:hover{
+
+    border: solid blue;
+  }
+  .email:hover{
+
+    border: solid blue;
+  }
+  .pass:hover{
+    border: solid blue;
+  }
+  .education:hover{
+    border: solid blue;
+  }
+  .male:hover{
+    border: solid blue;
+  }
+
+  
